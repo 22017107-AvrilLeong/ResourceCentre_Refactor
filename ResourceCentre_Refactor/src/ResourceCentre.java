@@ -17,7 +17,7 @@ public class ResourceCentre {
 
 		int option = 0;
 
-		while (option != OPTION_QUIT) {//jocelyn
+		while (option != OPTION_QUIT) {//jocelyn1
 
 			ResourceCentre.menu();//hghgg
 			option = Helper.readInt("Enter an option > ");
