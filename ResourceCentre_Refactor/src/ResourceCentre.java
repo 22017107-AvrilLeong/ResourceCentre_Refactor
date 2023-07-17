@@ -19,7 +19,7 @@ public class ResourceCentre {
 
 		while (option != OPTION_QUIT) {
 
-			ResourceCentre.menu();
+			ResourceCentre.menu();//hghgg
 			option = Helper.readInt("Enter an option > ");
 
 			if (option == 1) {
