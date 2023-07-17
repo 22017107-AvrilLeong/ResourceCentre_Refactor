@@ -17,7 +17,7 @@ public class ResourceCentre {
 
 		int option = 0;
 
-		while (option != OPTION_QUIT) {//fyfyf
+		while (option != OPTION_QUIT) //{Stephanie
 
 			ResourceCentre.menu();//hghgg
 			option = Helper.readInt("Enter an option > ");
@@ -91,7 +91,7 @@ public class ResourceCentre {
 
 		}
 
-	}
+	
 
 	public static void itemTypeMenu() {
 		ResourceCentre.setHeader("ITEM TYPES");
