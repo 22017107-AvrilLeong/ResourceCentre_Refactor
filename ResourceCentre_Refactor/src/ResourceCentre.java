@@ -19,7 +19,7 @@ public class ResourceCentre {
 
 		while (option != OPTION_QUIT) {//jocelyn
 
-			ResourceCentre.menu();
+			ResourceCentre.menu();//hghgg
 			option = Helper.readInt("Enter an option > ");
 
 			if (option == 1) {
@@ -91,7 +91,7 @@ public class ResourceCentre {
 
 		}
 
-	}
+	
 
 	public static void itemTypeMenu() {
 		ResourceCentre.setHeader("ITEM TYPES");
